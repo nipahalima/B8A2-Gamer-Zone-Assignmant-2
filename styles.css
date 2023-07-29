@@ -1,0 +1,314 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+     align-items: center; 
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+.nav-logo-container{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    margin:37px auto;
+    margin-left: 5%;
+}
+.nav-logo-title{
+    margin-left: 20px;
+}
+.nav-title{
+    color: #FF42A5;
+}
+.nav-manus{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 5%;
+    align-items: center;
+    margin-bottom:37px auto;
+}
+.nav-manu{
+    display: flex;
+    justify-content:space-between;
+    gap:30px;
+    color: #3C354F;
+    /* text-align: right; */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.nav-manu-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: hsla(311, 97%, 50%, 0.1);
+    width: 140px;
+    /* gap: 10px; */
+}
+
+
+
+/* goat section styles */
+.goat-main{
+    /* width: 90%; */
+    margin: auto;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.goat-description{
+    text-align: left;
+    width: 50%;
+    background-image: url("./images/Group\ 14.png");
+}
+.goat-description h3{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+.goat-description h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-top: 0px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.goat-p1{
+    color: #534C64;
+    text-align: left;
+    padding-left: 30px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+.goat-btn{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+.goat-button-1{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #ba5489 0%, #FF42A5 100%));
+}
+.goat-button-2{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 48px;
+    background: #b95bb9;
+    margin-left: 30px;
+}
+.goat-img{
+    width: 70%;
+    padding-left: 100px;
+}
+/* video cards styles */
+.video-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    padding: auto 10px auto 10px ;
+}
+.video-title-div{
+    text-align: center;
+}
+.video-title{
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.title-funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+.video-title-div p{
+    color: #534C64;
+    text-align: left;
+    padding-left: 30px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.video-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.video-cards{
+    height: 300px;
+    width: 200px;
+}
+.card-vip:hover{
+    position: relative;
+    bottom: 160px;
+    left: 80px;
+    color: #FFF;
+}
+.video-cards img{
+    height: 250px;
+    width: 200px;
+    border-radius: 16px;
+}
+.video-cards img:hover{
+    
+}
+/* download section style */
+.download-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 15%;
+}
+.download-description{
+    width: 30%;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.download-description h2{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+.download-description p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+.download-img-main{
+    margin-top: 70px;
+    margin-right: 8%;
+}
+.download-img{
+    margin-bottom: -190px;
+    margin-left: 80px;
+}
+/* games section style */
+.games-container{
+    margin: 60px 7% auto 7%;
+    text-align: center;
+}
+.games-container-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+.games-container-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    gap: 25px;
+}
+.games-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.games-title:hover{
+    border: 2px solid #5b0348;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+}
+
+.games-title:hover p{
+    color: bisque;
+}
+.games-title p{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 45px;
+}
+
+.footer-logo-title{
+    color: #FFF;
+}
+.footer-logo{
+    padding-top: 30px;
+    padding-right: 40px;
+}
+.footer-container{
+    background: #0B0223;
+    height: 436px;
+    margin-top: 50px;
+}
+.footer-p-1-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-icon-container{
+    margin-left: 390px;
+    margin-top: 10px;
+    padding-left: 250px;
+}
+.footer-icon-container button{
+    margin-right: 30px;
+    font-size: 3rem;
+    border-radius: 30%;
+    background-color: #271e3f;
+}
+.footer-p-2-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-p-3-container{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+Write to Md Mahfuzur Rahman LV
