@@ -169,12 +169,7 @@
     height: 300px;
     width: 200px;
 }
-.card-vip:hover{
-    position: relative;
-    bottom: 160px;
-    left: 80px;
-    color: #FFF;
-}
+
 .video-cards img{
     height: 250px;
     width: 200px;
